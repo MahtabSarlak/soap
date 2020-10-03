@@ -11,13 +11,4 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-
-	@Bean
-	void temp(){
-		System.out.println("check");
-		AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(SoapClientConfig.class);
-		ArticleClient articleClient = annotationConfigApplicationContext.getBean(ArticleClient.class);
-//		System.out.println(articleClient.getArticle(1));
-	}
-
 }
