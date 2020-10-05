@@ -1,4 +1,4 @@
-package com.tourismit.tit.demo;
+package ir.tourismit.tit.pushnotification;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
